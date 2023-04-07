@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+header {
+ background: rgb(176, 176, 235);
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+h1{
+  margin: left;
+}
+
+img{
+  vertical-align: middle;
+}
+
+a{
+  background:rgb(19, 143, 56);
+  color: white;
+  padding: 10px; /*文字の大きさ*/
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+h2{
+  margin: 0; /*余白が消える*/
+  font-weight: normal;/*太字解消*/
+}
+ 
+h3{
+  margin: 0; /*余白が消える*/
+  font-weight: normal;/*太字解消*/
+} 
+
+p{
+  margin: 0;/*余白が消える*/
+}
+
+/* hero */
+.hero{
+background: rgb(164, 247, 196);
+background-image: url(bg.png);
+filter: brightness(1.0);
+background-repeat: repeat-x;
+background-position: center bottom;
+
+text-align: center;
+}
+
